@@ -1,0 +1,31 @@
+{
+  "name": "xstate-model-based-testing",
+  "version": "1.0.0",
+  "description": "xstate + react-testing-library for model based testing",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@xstate/graph": "0.2.1",
+    "@xstate/react": "0.7.0",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-scripts": "2.1.8",
+    "react-testing-library": "6.1.2",
+    "xstate": "4.6.7"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
